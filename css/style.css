@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+}
+.teclado, .input {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin: 20px auto; /*Centraliza o input*/
+    max-width: 400px;
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: all 0.3s ease; /* Animações suaves para hover e foco */
+    font-family: "Playwrite CO Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input:focus {
+    border-color: #007bff; /* Cor da borda no foco */
+    background-color: #fff; /* Fundo branco no foco */
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2); /* Sombra mais acentuada no foco */
+    outline: none; /* Remove o contorno padrão */
+}
