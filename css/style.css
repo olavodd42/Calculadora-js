@@ -19,13 +19,13 @@ div.input, div.output {
     max-width: 400px;
     width: 80%;
     padding: 15px;
-    font-size: 8px;
+    font-size: 15px;
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     transition: all 0.3s ease; /* Animações suaves para hover e foco */
-    font-family: "Playwrite CO Guides", serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
